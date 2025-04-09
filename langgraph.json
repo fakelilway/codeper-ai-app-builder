@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "codeper": "./graph.py:codeper_flow"
+  },
+  "env": ".env"
+}
