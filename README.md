@@ -43,7 +43,7 @@ Codeper consists of several key components working together:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/codeper.git
+   git clone https://github.com/fakelilway/codeper-ai-app-builder.git
    cd codeper
    ```
 
