@@ -77,6 +77,14 @@ Codeper consists of several key components working together:
 Launch the application with:
 
 ```bash
+python crawl_electron_docs.py
+
+python crawl_nativescript_docs.py
+
+python crawl_nodejs_docs.py
+
+python crawl_react_docs.py
+
 streamlit run streamlit_ui.py
 ```
 
@@ -93,24 +101,6 @@ The application will be available at http://localhost:8501 by default.
 4. **Code Generation**: Platform-specific code will be generated for all selected platforms.
 
 5. **View & Export**: Browse generated files in the sidebar and use them in your development workflow.
-
-## 📂 Project Structure
-
-```
-codeper/
-├── app_coder.py         # Code generation module for each platform
-├── graph.py             # LangGraph workflow definition
-├── streamlit_ui.py      # User interface implementation
-├── langgraph.json       # LangGraph configuration
-├── .env                 # Environment variables (API keys)
-├── requirements.txt     # Python dependencies
-└── workbench/           # Directory for generated code
-    ├── react/           # Web app code
-    ├── electron/        # Desktop app code
-    ├── nodejs/          # Server code
-    ├── nativescript/    # Mobile app code
-    └── scope.md         # App architecture document
-```
 
 ## 📚 Technical Details
 
