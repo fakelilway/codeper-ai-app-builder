@@ -1,4 +1,3 @@
-# codeper-ai-app-builder
 # Codeper: AI-Powered Cross-Platform App Development
 
 Codeper is an intelligent system that automates the creation of cross-platform applications using generative AI and framework-specific knowledge retrieval. With Codeper, you can transform app ideas into functional code for web, desktop, and mobile platforms - even without deep technical expertise.
